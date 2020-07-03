@@ -35,4 +35,11 @@ def find_valid_calls(planeteer_calls)
     "#{element.join}"
   end
 
+
+  count = 0
+  while count < planeteer_calls.length
+      count_again = 0
+    while count_again < planeteer_calls[valid_calls].length
+
+
 end
