@@ -30,7 +30,7 @@ end
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   planeteer_calls.select do | element |
-    valid_calls[element]
+    valid_calls[element.to_i]
   #planeteer_calls.select(valid_calls) do | element |
   end
 end
